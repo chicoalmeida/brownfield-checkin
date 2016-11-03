@@ -1,6 +1,7 @@
 package com.brownfield.checkin.service;
 
 import com.brownfield.checkin.entity.CheckInRecord;
+import com.brownfield.checkin.producer.Sender;
 import com.brownfield.checkin.repository.CheckinRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
